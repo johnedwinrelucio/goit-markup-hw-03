@@ -18,6 +18,15 @@ main {
   padding-left: 0%;
 }
 
+.flexbox {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #f44336;
+  padding: 30px;
+  margin: 100px;
+  background-color: #ffeb3b;
+}
+
 .name {
   color: var(--NAVY-BLUE);
   text-align: left;
