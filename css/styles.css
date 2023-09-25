@@ -1,0 +1,239 @@
+:root {
+  --NAVY-BLUE: #2e2f42;
+  --SLATE: #434455;
+  --IRIS: #455ae5;
+  --WHITE: #fff;
+  --CLOUD: #f4f4fd;
+}
+
+/*general styles*/
+main {
+  font-family: "roboto";
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+  padding-left: 0%;
+}
+
+.name {
+  color: var(--NAVY-BLUE);
+  text-align: left;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.position {
+  color: var(--SLATE);
+  text-align: left;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/*End of General Styles*/
+
+/*Header Section*/
+.header-logo {
+  text-decoration: none;
+}
+
+.header-logo:hover {
+  font-size: 100px;
+}
+.header-logo span:hover {
+  font-size: 100px;
+}
+
+.header-logo span {
+  color: var(--IRIS);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  width: 44px;
+}
+
+.header-logo {
+  color: var(--NAVY-BLUE);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  width: 71px;
+}
+
+.header-item {
+  color: var(--NAVY-BLUE);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.header-item:hover {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.contact-info .tel:hover {
+  font-weight: 900;
+  font-style: oblique;
+}
+.contact-info .add:hover {
+  font-weight: 900;
+  font-style: oblique;
+}
+
+.contact-info .list {
+  color: var(--SLATE);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/*End of Header Section*/
+
+/*hero section*/
+.hero-background {
+  background-color: var(--NAVY-BLUE);
+}
+.title {
+  color: var(--WHITE);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+.button {
+  color: var(--WHITE);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  background: var(--IRIS);
+}
+
+.item {
+  color: var(--NAVY-BLUE);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+  width: 264px;
+}
+
+.bottom-text {
+  color: var(--SLATE);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  width: 264px;
+}
+/*End of hero section*/
+
+/*About section*/
+
+.about-top-text {
+  color: var(--NAVY-BLUE);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+/*End of About section*/
+
+/*Crew section*/
+.crew-top-text {
+  color: var(--NAVY-BLUE);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+/*End of Crew section*/
+
+/*Footer section*/
+.footer-background {
+  background: var(--NAVY-BLUE);
+}
+
+.footer-logo span {
+  color: var(--IRIS);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  width: 44px;
+}
+
+.footer-logo {
+  color: var(--CLOUD);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  width: 71px;
+}
+
+.footer-text {
+  color: var(--CLOUD);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  width: 264;
+}
+
+.footer-logo {
+  text-decoration: none;
+}
+
+.footer-logo:hover {
+  font-size: 50px;
+}
+.footer-logo span:hover {
+  font-size: 50px;
+}
+/*End of Footer section*/
