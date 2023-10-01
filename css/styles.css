@@ -13,10 +13,6 @@ main {
 .link {
   text-decoration: none;
 }
-.list {
-  list-style: none;
-  padding-left: 0%;
-}
 
 .name {
   color: var(--NAVY-BLUE);
@@ -42,6 +38,7 @@ main {
 /*End of General Styles*/
 
 /*Header Section*/
+
 .header-logo {
   text-decoration: none;
 }
@@ -76,6 +73,20 @@ main {
   text-transform: uppercase;
   width: 71px;
 }
+.header-nav {
+  display: flex;
+  list-style: none;
+}
+.header-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav .header-item:hover {
+  font-size: 40px;
+  font-weight: lighter;
+}
 
 .header-item {
   color: var(--NAVY-BLUE);
@@ -86,10 +97,12 @@ main {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
-
-.header-item:hover {
-  font-size: 25px;
-  text-transform: uppercase;
+.contact-div {
+  display: flex;
+  list-style: none;
+}
+.contact-info {
+  display: flex;
 }
 
 .contact-info .tel:hover {
@@ -101,7 +114,7 @@ main {
   font-style: oblique;
 }
 
-.contact-info .list {
+.contact-item {
   color: var(--SLATE);
   font-family: Roboto;
   font-size: 16px;
