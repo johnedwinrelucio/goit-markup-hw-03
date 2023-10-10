@@ -10,8 +10,12 @@
 main {
   font-family: "roboto";
 }
-.link {
+.links {
   text-decoration: none;
+}
+.lists {
+  list-style-type: none;
+  padding: 0;
 }
 
 .name {
@@ -38,32 +42,11 @@ main {
 /*End of General Styles*/
 
 /*Header Section*/
-.container {
-  margin: 0 auto;
-  width: 1158px;
-  padding: 0 15px;
-}
-.header-container {
+.header-navigation {
   display: flex;
-  width: 1440px;
-  height: 72px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
 }
-
 .header-logo {
-  text-decoration: none;
-}
-
-.header-logo:hover {
-  font-size: 100px;
-}
-.header-logo span:hover {
-  font-size: 100px;
-}
-
-.header-logo span {
+  width: 44px;
   color: var(--IRIS);
   font-family: Raleway;
   font-size: 18px;
@@ -72,10 +55,9 @@ main {
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  width: 44px;
 }
-
-.header-logo {
+.header-logo span {
+  width: 71px;
   color: var(--NAVY-BLUE);
   font-family: Raleway;
   font-size: 18px;
@@ -84,34 +66,20 @@ main {
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  width: 71px;
 }
-.header-nav {
-  list-style: none;
+.header-logo :hover {
+  font-size: xx-large;
+}
+.header-item {
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
 }
-.header-info {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
+.header-item :hover {
+  font-style: oblique;
+  font-size: 400%;
 }
-.header-container {
-  display: flex;
-  width: 1440px;
-  height: 72px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-}
-.header-nav .header-item:hover {
-  font-size: 40px;
-  font-weight: lighter;
-}
-
-.header-item {
+.header-link {
   color: var(--NAVY-BLUE);
   font-family: Roboto;
   font-size: 16px;
@@ -120,22 +88,18 @@ main {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
-.contact-div {
-  list-style: none;
-  display: flex;
+.header-address {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
 }
-
-.contact-info .tel:hover {
-  font-weight: 900;
-  font-style: oblique;
+.header-address :hover {
+  background-color: aqua;
+  font-weight: bolder;
+  font-size: 150%;
 }
-.contact-info .add:hover {
-  font-weight: 900;
-  font-style: oblique;
-}
-
-.contact-item {
-  color: var(--SLATE, #434455);
+.header-address-link {
+  color: var(--SLATE);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
