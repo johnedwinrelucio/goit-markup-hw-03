@@ -10,14 +10,9 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Web Studio</title>
   </head>
-
   <body>
     <!-- header -->
     <header class="header">
@@ -28,7 +23,9 @@
           >
           <ul class="nav-list">
             <li class="nav-list-item">
-              <a class="nav-list-item-link" href="index.html">Studio</a>
+              <a class="nav-list-item-link active" href="./index.html"
+                >Studio</a
+              >
             </li>
 
             <li class="nav-list-item">
@@ -38,7 +35,7 @@
             </li>
 
             <li class="nav-list-item">
-              <a class="nav-list-item-link" href="#footer">Contacts</a>
+              <a class="nav-list-item-link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -62,151 +59,125 @@
 
     <!-- main -->
     <main>
-      <section class="fltr-btn section">
-        <div class="container btn-container">
-          <ul class="fltr-btn-list">
-            <li class="fltr-btn-list-item">
-              <button class="fltr-btn-item active" type="button">All</button>
+      <!-- Hero Section -->
+      <section class="hero-section section">
+        <div class="container">
+          <h1 class="hero-title">Effective Solutions<br />for Your Business</h1>
+          <button class="btn" type="button">Order Service</button>
+        </div>
+      </section>
+
+      <!-- section 1 -->
+      <section class="adv-section">
+        <div class="container section-container">
+          <ul class="adv-list">
+            <li class="adv-item">
+              <h3 class="adv-title">Strategy</h3>
+              <p class="adv-description">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
             </li>
-            <li class="fltr-btn-list-item">
-              <button class="fltr-btn-item" type="button">Web Site</button>
+
+            <li class="adv-item">
+              <h3 class="adv-title">Punctuality</h3>
+              <p class="adv-description">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
             </li>
-            <li class="fltr-btn-list-item">
-              <button class="fltr-btn-item" type="button">App</button>
+
+            <li class="adv-item">
+              <h3 class="adv-title">Diligence</h3>
+              <p class="adv-description">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
             </li>
-            <li class="fltr-btn-list-item">
-              <button class="fltr-btn-item" type="button">Design</button>
-            </li>
-            <li class="fltr-btn-list-item">
-              <button class="fltr-btn-item" type="button">Marketing</button>
+
+            <li class="adv-item">
+              <h3 class="adv-title">Technologies</h3>
+              <p class="adv-description">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="card-feature-section">
-        <div class="container card-container">
-          <ul class="card-list">
-            <li class="card-list-item">
-              <img
-                class="card-list-img"
-                src="./images/card-img-1.jpg"
-                alt="banking app"
-                width="360"
-              />
-              <div class="card-content">
-                <h3 class="card-list-item-title">
-                  Banking App Interface Concept
-                </h3>
-                <p class="class-card-designation">Marketing</p>
-              </div>
+      <!-- section-2 -->
+      <section class="what-are-we-doing-section section">
+        <div class="container section-container">
+          <h1 class="what-are-we-doing-title title">What Are We Doing</h1>
+          <ul class="what-are-we-doing-list">
+            <li class="what-are-we-doing-item">
+              <img src="./image/img-1.jpg" alt="img-1" width="300" />
             </li>
 
-            <li class="card-list-item">
-              <img
-                class="card-list-img"
-                src="./images/card-img-2.jpg"
-                alt="banking app"
-                width="360"
-              />
-              <div class="card-content">
-                <h3 class="card-list-item-title">Cashless Payment</h3>
-                <p class="class-card-designation">Marketing</p>
-              </div>
+            <li class="what-are-we-doing-item">
+              <img src="./image/img-2.jpg" alt="img-2" width="300" />
             </li>
 
-            <li class="card-list-item">
-              <img
-                class="card-list-img"
-                src="./images/card-img-3.jpg"
-                alt="banking app"
-                width="360"
-              />
-              <div class="card-content">
-                <h3 class="card-list-item-title">Meditation App</h3>
-                <p class="class-card-designation">App</p>
-              </div>
-            </li>
-
-            <li class="card-list-item">
-              <img
-                class="card-list-img"
-                src="./images/card-img-4.jpg"
-                alt="banking app"
-                width="360"
-              />
-              <div class="card-content">
-                <h3 class="card-list-item-title">Taxi Service</h3>
-                <p class="class-card-designation">Marketing</p>
-              </div>
-            </li>
-
-            <li class="card-list-item">
-              <img
-                class="card-list-img"
-                src="./images/card-img-5.jpg"
-                alt="banking app"
-                width="360"
-              />
-              <div class="card-content">
-                <h3 class="card-list-item-title">Screen Illustrations</h3>
-                <p class="class-card-designation">Design</p>
-              </div>
-            </li>
-
-            <li class="card-list-item">
-              <img
-                class="card-list-img"
-                src="./images/card-img-6.jpg"
-                alt="banking app"
-                width="360"
-              />
-              <div class="card-content">
-                <h3 class="card-list-item-title">Online Courses</h3>
-                <p class="class-card-designation">Marketing</p>
-              </div>
-            </li>
-
-            <li class="card-list-item">
-              <img
-                class="card-list-img"
-                src="./images/card-img-7.jpg"
-                alt="banking app"
-                width="360"
-              />
-              <div class="card-content">
-                <h3 class="card-list-item-title">Instagram Stories Concept</h3>
-                <p class="class-card-designation">Design</p>
-              </div>
-            </li>
-
-            <li class="card-list-item">
-              <img
-                class="card-list-img"
-                src="./images/card-img-8.jpg"
-                alt="banking app"
-                width="360"
-              />
-              <div class="card-content">
-                <h3 class="card-list-item-title">Organic Food</h3>
-                <p class="class-card-designation">Web Site</p>
-              </div>
-            </li>
-
-            <li class="card-list-item">
-              <img
-                class="card-list-img"
-                src="./images/card-img-9.jpg"
-                alt="banking app"
-                width="360"
-              />
-              <div class="card-content">
-                <h3 class="card-list-item-title">Fresh Coffee</h3>
-                <p class="class-card-designation">Web Site</p>
-              </div>
+            <li class="what-are-we-doing-item">
+              <img src="./image/img-3.jpg" alt="img-3" width="300" />
             </li>
           </ul>
         </div>
+      </section>
+
+      <!-- section-3 -->
+      <section class="our-team-section section">
+        <h1 class="our-team-title title">Our Team</h1>
+        <ul class="our-team-list">
+          <li class="our-team-item">
+            <img
+              src="./image/img-team-1.jpg"
+              alt="mark-guerrero-profile-picture"
+              width="300"
+            />
+            <div class="our-team-item-content">
+              <h2 class="our-team-name">Mark Guerrero</h2>
+              <p class="our-team-position">Product Designer</p>
+            </div>
+          </li>
+
+          <li class="our-team-item">
+            <img
+              src="./image/img-team-2.jpg"
+              alt="tom-ford-profile-picture"
+              width="300"
+            />
+            <div class="our-team-item-content">
+              <h2 class="our-team-name">Tom Ford</h2>
+              <p class="our-team-position">Frontend Developer</p>
+            </div>
+          </li>
+
+          <li class="our-team-item">
+            <img
+              src="./image/img-team-3.jpg"
+              alt="camila-garcia-profile-picture"
+              width="300"
+            />
+            <div class="our-team-item-content">
+              <h2 class="our-team-name">Camila Garcia</h2>
+              <p class="our-team-position">Marketing</p>
+            </div>
+          </li>
+
+          <li class="our-team-item">
+            <img
+              src="./image/img-team-4.jpg"
+              alt="daniel-wilson-profile-picture"
+              width="300"
+            />
+            <div class="our-team-item-content">
+              <h2 class="our-team-name">Daniel Wilson</h2>
+              <p class="our-team-position">UI Designer</p>
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
 
